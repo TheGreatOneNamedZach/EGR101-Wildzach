@@ -1,7 +1,11 @@
 Wildzach - An AprilTag image detection script.
+
 Author(s):  Zachary Bratten
+
 Assignment: EGR 101-005 Week 14; Final Project
-Changed:    November 28th, 2023
+
+Changed: November 28th, 2023
+
 Purpose:
   This script can detect AprilTags using image detection and machine
   learning. I chose this for my project because machine learning will
@@ -12,24 +16,22 @@ Purpose:
 Additional Notes:
   This script is made possible by the power of blood, sweat, and tears.
 
+
   Make sure the AprilTag is upright! Else, the tracking is off.
   Make sure that the AprilTag is not even slightly obstructed!
+
 
   This is by far the most complicated code I have ever written in MATLAB.
   Even though I have taken steps against it, this script will probably
   not work on devices other than mine.
+
 
   P.S. MATLAB stores pixel coordinates for images as (y, x).
   Who does that?
 
 
 
-  _____              _                       _    _                 
- |_   _|            | |                     | |  (_)                
-   | |   _ __   ___ | |_  _ __  _   _   ___ | |_  _   ___   _ __   ___ 
-   | |  | '_ \ / __|| __|| '__|| | | | / __|| __|| | / _ \ | '_ \ / __|
-  _| |_ | | | \\__ \\ |_ | |   | |_| || (__ | |_ | || (_) || | | \\__ \
- |_____||_| |_||___/ \__||_|    \__,_| \___| \__||_| \___/ |_| |_||___/
+# Instructions
 
 YOUTUBE VIDEO: https://youtu.be/Vck66jXTtSQ
 
@@ -60,7 +62,11 @@ https://drive.google.com/file/d/1PkqGuDfVzx3a7IQNXvlJt00seDHg3iqa/view
   keybind Ctrl + C in MATLAB will terminate the script.
 
 Requirements:
+
   MATLAB R2023b or higher
+  
   Computer Vision Toolbox v23.2 or higher
+  
   Image Processing Toolbox v23.2 or higher
+  
   MATLAB Support Package for USB Webcams v23.2.0 or higher
